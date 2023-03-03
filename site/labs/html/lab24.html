@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/labs/css/lab25.css">
+    <link rel="shortcut icon" href="/labs/img/icone.jpg" type="image/x-icon">
+    <script src="/labs/js/lab24.js"></script>
+    <title>Placar Jiu-Jitsu</title>
+</head>
+<body> 
+    <div class="lutadores lutador_1" id="lutador_1">
+    
+        <input id="nome" type="text" placeholder="Nome lutador">
+    
+        <input type="text" value="0" class="placar primeiro" id="placar_1" autocomplete="off">
+    
+        <button id="soma" onclick="adicionar('0')">+</button>
+    
+        <button id="subtração" onclick="subtração('0')" >-</button>
+    </div>
+
+    <div class="lutadores lutador_2" id="lutador_2">
+    
+        <input id="nome" type="text" placeholder="Nome lutador">
+    
+        <input type="text" class="placar segundo" id="placar_2" value="0" autocomplete="off">
+        
+        <div class="opção vantagem">
+            <button id="soma" onclick="adicionar('1')">+</button>
+            <h4>vantagem</h4>
+            <button id="subtração" onclick="subtração('1')">-</button>
+        </div>
+        <div class="opção punição">
+            <button id="soma" onclick="adicionar('1')">+</button>
+            <h4>punição</h4>
+            <button id="subtração" onclick="subtração('1')">-</button>
+        </div>
+        
+        <div class="pontos_4">
+            <div class="opção Motada_Costa">
+                <button id="soma" onclick="adicionar('1')">+</button>
+                <h4>Montada pelas Costas</h4>
+                <button id="subtração" onclick="subtração('1')">-</button>
+            </div>
+            <div class="opção Montada">
+                <button id="soma" onclick="adicionar('1')">+</button>
+                <h4>Montada</h4>
+                <button id="subtração" onclick="subtração('1')">-</button>
+            </div>
+            <div class="opção Pegada_Costa">
+                <button id="soma" onclick="adicionar('1')">+</button>
+                <h4>Pegada pelas Costas</h4>
+                <button id="subtração" onclick="subtração('1')">-</button>
+            </div>
+        </div>
+
+        <div class="pontos_3">
+            <div class="opção Passagem_Guarda">
+                <button id="soma" onclick="adicionar('3')">+</button>
+                <h4>Passagem de Guarda</h4>
+                <button id="subtração" onclick="subtração('3')">-</button>
+            </div>
+        </div>
+
+        <div class="pontos_2">
+            
+            <div class="opção Queda">
+                <button id="soma" onclick="adicionar('2')">+</button>
+                <h4>Queda</h4>
+                <button id="subtração" onclick="subtração('2')">-</button>
+            </div>
+            
+            <div class="opção Raspagem">
+                <button id="soma" onclick="adicionar('2')">+</button>
+                <h4>Raspagem</h4>
+                <button id="subtração" onclick="subtração('2')">-</button>
+            </div>
+            
+            <div class="opção Joelho_Barriga">
+                <button id="soma" onclick="adicionar('2')">+</button>
+                <h4>Joelho na Barriga</h4>
+                <button id="subtração" onclick="subtração('2')">-</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

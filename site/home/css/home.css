@@ -1,0 +1,93 @@
+body {
+  background-color: rgba(40, 40, 40, 1);
+  color: rgba(255, 255, 255, 1);
+  min-width: 450px;
+  font-family: "Space Grotesk";
+}
+
+.principal {
+  background-color: rgba(60, 60, 60, 1);
+  position: absolute;
+  top: 15vh;
+  margin-left: 40vh;
+  margin-right: 40vh;
+  min-width: 200px;
+  min-height: 400px;
+  z-index: 1;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.principal>p {
+  text-align: justify;
+  width: 100%;
+}
+
+.principal>img {
+  position: absolute;
+  top: 70px;
+  right: 10%;
+  height: 200px;
+  width: 200px;
+}
+
+.imagem {
+  width: 70%;
+}
+
+.padrão {
+  background-color: rgb(26, 26, 26);
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
+}
+
+.no-padrão {
+  color: rgb(100, 250, 100);
+  border-radius: 3px;
+  font-family: courier, monospace;
+}
+
+@media (max-width: 1400px) {
+  .principal {
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
+}
+
+@media (max-width: 1100px) {
+  .principal {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .principal {
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  .principal>img {
+    top: 70px;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .principal>.imagem {
+    width: 100%;
+  }
+
+  .principal>.primeiro {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .principal>img {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 400px;
+  }
+}
