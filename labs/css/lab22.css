@@ -1,0 +1,61 @@
+*{
+    font-family: "Space Grotesk";
+}
+.box{
+    background-color: rgb(50, 50, 50);
+    width: 300px;
+    margin: auto;
+    color: rgb(250, 250, 250);
+    
+}
+input{
+    position: relative;
+    left: 90px;
+    top: 0px;
+    display: block;
+
+}
+button{
+    position: relative;
+    left: 80%;
+    top: 10px;
+}
+
+.par{
+    height: 140px;
+    
+}
+.maior{
+    height: 250px;
+}
+.soma{
+    height: 140px;
+}
+.fatorial{
+    height: 140px;
+    margin-bottom: 100px;
+}
+body{
+    background-color:  rgb(70, 70, 70);
+    
+}
+.blockinput{
+    display: block;
+}
+.blockinput label{
+    position: relative;
+    top: 25px;
+    left: 20%;
+}
+.blockinput> .resposta{
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+.blockinput .numero{
+    position: relative;
+    left: 5%;
+}
+hr{
+    border: 0px;
+}
